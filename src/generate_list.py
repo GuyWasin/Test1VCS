@@ -2,6 +2,11 @@ import random
 
 def generate_list():
     alist = [x for x in range(random.randint(-10,10))]
+    assert len(alist)!=0,"alist is null"
+    sum=0
+    for i in alist:
+        sum+=alist[i]
+    print(sum)
     return alist
 
 """
