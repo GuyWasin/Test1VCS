@@ -6,7 +6,8 @@ def generate_list():
     sum=0
     for i in alist:
         sum+=alist[i]
-    print(sum)
+    print"sum= %d" % (sum)
+    assert sum<=100,"sum grather than 100"
     return alist
 
 """

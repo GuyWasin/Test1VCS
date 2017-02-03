@@ -1,0 +1,8 @@
+round: 1
+round: 1
+sum= 10
+[0, 1, 2, 3, 4]
+round: 2
+sum= 0
+[0]
+round: 3
