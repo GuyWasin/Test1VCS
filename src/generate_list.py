@@ -7,7 +7,7 @@ def generate_list():
 print a generate list
 """
 
-def printIt()
+def printIt():
     print(generate_list())
     
 def main():
@@ -17,7 +17,7 @@ def main():
 If this script file is called, it will run main() directly
 """
 
-if__name__=='__main__':
+if __name__ == '__main__':
     print("Test printIt():")
     main()
     
